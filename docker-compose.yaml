@@ -1,7 +1,7 @@
-version: "3"
+version: "3.4"
 services:
   neko:
-    image: "maxwell017/vb:v1"
+    image: "maxwell017/vb:v2"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
